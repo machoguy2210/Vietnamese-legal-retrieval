@@ -110,7 +110,7 @@ def clear_conversation():
 def answer(document, query):
     import google.generativeai as genai
 
-    genai.configure(api_key="AIzaSyC2cNDoDVGJdgum-RCOdCgKbkX11hz8yTE")
+    genai.configure(api_key="YOUR_API_KEY")
 
     model = genai.GenerativeModel("gemini-1.5-flash")
 
