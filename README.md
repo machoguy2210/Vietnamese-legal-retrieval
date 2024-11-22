@@ -1,4 +1,4 @@
-# Vietnamese Legal Retrieval
+# RAG-based Vietnamese Legal Retrieval
 
 The pipelines for this project is shown as below:
 Query --> Bi-encoder --> Cross-Encoder --> Top k documents --> LLM --> Answer
